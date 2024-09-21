@@ -1,0 +1,38 @@
+/* Custom CSS */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  #about img {
+    border: 4px solid #007bff;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  #contact .form-control {
+    margin-bottom: 15px;
+  }
+  
+  #contact button {
+    width: 100%;
+  }
+  
